@@ -1,5 +1,4 @@
 #!/usr/bin/python
 import string
-tr = string.maketrans('aBCDeFGHiJKLMNoPQRSTuVWXYZ', 'AbcdEfghIjklmnOpqrstUvwxyz')
-print("zyxwvutsrqponmlkjihgfedcba".translate(tr))
+print (string.ascii_lowercase[::-1])
 
