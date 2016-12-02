@@ -7,4 +7,3 @@ l = m.replace('i','I')
 k = l.replace('o','O')
 p = k.replace('u','U')
 print(p)
-
