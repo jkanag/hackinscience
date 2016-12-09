@@ -1,3 +1,3 @@
 #!/usr/bin/python
 for i in range(1, 101):
-    print("Hello world")
+    print("Hello World")
