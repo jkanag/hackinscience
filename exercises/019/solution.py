@@ -4,5 +4,7 @@ import math
 import operator
 x = sys.argv[1]
 y = sys.argv[2]
-z = int(x) + int(y)
-print(z)
+if (int(x) + int(y)):
+    print(int(x) + int(y))
+else:
+    print("usage: python3 solution.py OP1 OP2")
