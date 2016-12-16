@@ -2,4 +2,6 @@
 import datetime
 import time
 from time import strftime
-print("Today is " + strftime("%m-%d-%Y") + " and it is " + strftime("%H:%M:%S"))
+i = strftime("%Y-%d-%m")
+m = strftime("%H:%M:%S")
+print("Today is " + i + " and it is " + m)
