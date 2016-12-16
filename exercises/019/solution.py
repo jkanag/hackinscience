@@ -5,5 +5,5 @@ if (i == 0):
     print("usage: python3 solution.py OP1 OP2")
 if (i == 1):
     print("usage: python3 solution.py OP1 OP2")
-else:
+if (i == 2):
     print(int(sys.argv[1]) + int(sys.argv[2]))
