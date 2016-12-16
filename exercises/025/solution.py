@@ -1,4 +1,5 @@
 #!/usr/bin/python
 import datetime
-i = datetime.datetime.now()
-print(i)
+import time
+from time import strftime
+print("Today is " + strftime("%m/%d/%Y") + " and it is " + strftime("%H:%M"))
